@@ -1,9 +1,6 @@
 # Quiz-satisfacao-live
 
 
-# Listagem-de-linguagens-de-programacao
-
-
 ## ➡️Introdução
 Eu aceitei o desafio de criar um formulário de acordo com os meus gostos pessoais e desenvolver uma tela moderna e bonita, de acordo com os meus aprendizados do curso.
 
