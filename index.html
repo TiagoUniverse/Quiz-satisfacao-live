@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial scale=1.0'>
+  <title>Quiz de satisfação da live</title>
+  <link rel='stylesheet' href='styles.css'>
+</head>
+
+<body>
+  <main>
+      <h1 id='title'>Quiz de satisfação da live</h1>
+      <p id='description'>Obrigado por ter assistido a live do Tiago Universe. Por favor, dedique alguns minutos para dar o seu depoimento.</p>
+      <form id='survey-form' method='post' action='https://survey-form.freecodecamp.rocks/'>
+        <fieldset>
+          <label id='name-label' for='name'>Seu nome: <input id='name' name='name' type='text' placeholder='Tiago Universe' required> </label>
+          <label id='email-label' for='email'>Seu e-mail: <input id='email' name='email' type='email' placeholder='meuEmailIncrivel@gmail.com' required> </label>
+          <label id='number-label' for='age'>Sua idade (opcional): <input id='number' placeholder='idade' name='age' min='6' max='120' type='number'> </label>
+        </fieldset>
+
+        <fieldset>
+          <label> 
+            Defina o quanto você gostou da live: <br>
+            <select id='dropdown' name='dropdown'> 
+              <option value='0'>Selecione uma opção </option>
+              <option value='1'>Não fiquei satisfeito </option>
+              <option value='2'>A live foi mais ou menos </option>
+              <option value='3'>A live foi e me satisfez </option>
+              <option value='4'>A live foi épica e eu me diverti muito! </option>
+            </select>
+          </label>
+          
+
+          <label>Qual seu maior interesse nos conteúdos do Tiago Universe:</label>
+          <label><input type='radio' id='name-conteudo' name='radio-conteudo' value ='live'> Live</label>
+          <label><input type='radio' id='name-conteudo' name='radio-conteudo' value='youtube'> Youtube</label>
+          <label><input type='radio' id='name-conteudo' name='radio-conteudo' value='podcast'> Podcast</label>
+
+          <label>
+            Selecione abaixo os fatores que mais te agradam na live:
+          </label>
+          <label> <input type='checkbox' name='interesses' value='remixes'> Os remixes </label>
+          <label> <input type='checkbox' name='interesses' value='playlist'> A playlist </label>
+          <label> <input type='checkbox' name='interesses' value='gameplayLol'> A gameplay de League of legends </label>
+          <label> <input type='checkbox' name='interesses' value='gameplayWD'> A gameplay de Watch Dogs 2</label>
+          <label> <input type='checkbox' name='interesses' value='gameplayALL'> A gameplay de todos os jogos </label>
+          <label> <input type='checkbox' name='interesses' value='YoutubeVideo'> Os vídeos postados no YouTube </label>
+          <label> <input type='checkbox' name='interesses' value='Spotify'> O Spotify da live </label>
+          <label> <input type='checkbox' name='interesses' value='Discord'> O discord da live </label>
+          <label> <input type='checkbox' name='interesses' value='Instagram'> O Instagram da live </label>
+          <label> <input type='checkbox' name='interesses' value='Custcenes'> As aberturas e cutscenes </label>
+          <label> <input type='checkbox' name='interesses' value='Talk'> As conversas com o streamer </label>
+        </fieldset>
+
+        <fieldset>
+          <label for='descricao'>
+            Digite uma breve comentário a respeito da live:
+            <textarea name='descricao' id='descricao' rows='3' cols='30'></textarea>
+          </label>
+        </fieldset>
+        <input id='submit' type='submit' value='Enviar' >
+
+      </form>
+  </main>
+</body>
+</html>

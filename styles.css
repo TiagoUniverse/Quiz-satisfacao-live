@@ -1,0 +1,32 @@
+body{
+  font-family: Tahoma;
+  width:100%;
+  height:100vh;
+  margin:0;
+  font-size: 16px;
+  background-size: cover;
+  background-image: url(https://64.media.tumblr.com/2a6f7af8cfb46d49606f4082a2cddd6d/0f9f60d1b44eb6c2-a7/s1280x1920/b44218769dea6b6c1a81864bc57883a75b703971.jpg);
+  color: white;
+}
+
+h1, p{
+  margin: 1em auto;
+  text-align: center;
+}
+
+input, textarea, select{
+  width:100%;
+}
+
+fieldset{
+  background-color: #501ee1aa;
+}
+
+/* FORMULÁRIO */
+form{
+  max-width:500px;
+  min-width:300px;
+  margin: 0 auto;
+}
+
+
